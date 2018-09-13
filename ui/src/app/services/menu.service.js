@@ -184,6 +184,12 @@ function Menu(userService, $state, $rootScope) {
                             type: 'link',
                             state: 'home.auditLogs',
                             icon: 'track_changes'
+                        },
+                        {
+                            name: 'billing.billing',
+                            type: 'link',
+                            state: 'home.billing',
+                            icon: 'attach_money'
                         }];
 
                     homeSections =
@@ -249,6 +255,16 @@ function Menu(userService, $state, $rootScope) {
                                         name: 'audit-log.audit-logs',
                                         icon: 'track_changes',
                                         state: 'home.auditLogs'
+                                    }
+                                ]
+                            },
+                            {
+                                name: 'billing.billing',
+                                places: [
+                                    {
+                                        name: 'billing.bill',
+                                        icon: 'attach_money',
+                                        state: 'home.billing'
                                     }
                                 ]
                             }];

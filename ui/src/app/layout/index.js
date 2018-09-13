@@ -42,6 +42,7 @@ import thingsboardAuditLog from '../audit';
 import thingsboardExtension from '../extension';
 import thingsboardTenant from '../tenant';
 import thingsboardCustomer from '../customer';
+import thingsboardBilling from '../billing';
 import thingsboardUser from '../user';
 import thingsboardHomeLinks from '../home';
 import thingsboardAdmin from '../admin';
@@ -74,6 +75,7 @@ export default angular.module('thingsboard.home', [
     thingsboardExtension,
     thingsboardTenant,
     thingsboardCustomer,
+    thingsboardBilling,
     thingsboardUser,
     thingsboardAdmin,
     thingsboardProfile,

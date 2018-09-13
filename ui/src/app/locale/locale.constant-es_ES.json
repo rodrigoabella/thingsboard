@@ -878,6 +878,10 @@
         "avatar": "Avatar",
         "open-user-menu": "Abrir menú de usuario"
     },
+    "billing": {
+        "billing": "Facturación",
+        "bill": "Facturar"
+    },
     "import": {
         "no-file": "Ningún archivo seleccionado",
         "drop-file": "Arrastra un archivo JSON o clickea para seleccionar uno."
